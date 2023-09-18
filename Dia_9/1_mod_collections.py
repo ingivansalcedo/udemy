@@ -1,4 +1,4 @@
-# from collections import Counter
+from collections import Counter
 #
 # numeros = [8,6,9,5,6,7,7,7,7,4,5,6,5,5,4,3]
 #
@@ -6,6 +6,7 @@
 # print(Counter("mississippi"))
 #
 # frase = 'al pan pan y al vino vino'
+# print(Counter(frase))
 # print(Counter(frase.split()))
 #
 # serie = Counter([1,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,4])
@@ -39,4 +40,5 @@
 from collections import deque
 lista_ciudades = deque(["Londres", "Berlin", "París", "Madrid", "Roma", "Moscú"])
 lista_ciudades.appendleft("Bogota")
+print(lista_ciudades.index("Madrid", 0, 5))
 print(lista_ciudades)

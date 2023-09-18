@@ -1,5 +1,5 @@
 class TurnosFarmacia:
-    def __init__(self,sigla):
+    def __init__(self, sigla):
         self.turno = 0
         self.sigla = sigla
 

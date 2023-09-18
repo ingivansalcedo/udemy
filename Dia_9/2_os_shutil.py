@@ -4,7 +4,7 @@ import shutil
 
 
 # Imprimir el directorio actual
-#print(Path(os.getcwd(), 'proyecto'))
+print(Path(os.getcwd(), 'proyecto'))
 
 # archivo = open('curso.txt', 'w')
 # archivo.write('texto de prueba')
@@ -39,6 +39,7 @@ archivo_busqueda = Path(carpeta_base, 'proyecto', 'descubrir_proyecto', 'Mi_Gran
 #     for arch in archivo:
 #         print(f'\t{arch}')
 #     print('\n')
+
 
 for carpeta, subcarpeta, archivo in os.walk(archivo_busqueda):
     for arch in archivo:
